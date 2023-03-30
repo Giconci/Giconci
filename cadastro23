@@ -1,1 +1,71 @@
 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css.cadastro.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet" />
+    <title> PROGRESSO Formulário</title>
+    <link rel="stylesheet" href="https://fontawesome.com/icons">
+    <link rel="stylesheet" href="./fontawesome/fontawesome-free-6.2.0-web/css/all.min.css">
+    
+   
+  </head>
+
+
+  <body>
+    <div class="main-login">
+       <div class="left-login">
+         <h2>Conci</h2>
+          <h1>Bem Vindo</h1>
+    </div>
+
+<form class="form" id="form">
+      <div class="card-login">
+        <h1>CADASTRO</h1>
+         <div class="form-control">
+          <input type="text"id="username" placeholder="" required  />
+          <label id="labelNome" for="username">Nome</label>
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+          <input type="text" id="email" placeholder=""required  />
+          <label id="labelEmail" for="email">Email</label>
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+          <input type="password" id="password" placeholder=""required >
+          <label id="labelPassword" for="password">Senha</label>
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <span id="icon1" class="fa-regular fa-eye"></span>
+          <small>Mensagem de erro</small>
+        </div>
+
+        <button onclick="enviar() " type="submit">Enviar</button>
+      </form>
+    </div>
+  </div>
+     
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/f9e19193d6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/1a8444f06c.js" crossorigin="anonymous"></script>
+    <script src="./jscadastro.js"></script>
+  </body>
+</html>
