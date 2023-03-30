@@ -69,3 +69,403 @@
     <script src="./jscadastro.js"></script>
   </body>
 </html>
+
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Oxygen:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Oi&family=Oxygen:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Oi&family=Oxygen:wght@300;400;700&family=Pacifico&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.main-login {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #f1f8f8 0%, #8c8ba0 100%);
+  float: none;
+}
+
+.left-login {
+  width: 50vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.left-login > h2 {
+  font-family: "Pacifico", sans-serif;
+  font-size: 3vw;
+  color: rgb(218, 218, 139);
+}
+
+.left-login > h1 {
+  color: rgb(16, 18, 17);
+  font-size: 4, 5vw;
+  padding: auto;
+
+  font-family: "Pacifico", sans-serif;
+}
+
+.left-login > h2 {
+  text-shadow: 2px 3px #504e65;
+  font-size: 10vw;
+}
+
+.right-login {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.card-login {
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 75px;
+  border: 1px solid rgb(167, 167, 113);
+  border-radius: 5px;
+}
+button {
+  outline: none;
+  color: rgb(10, 10, 10);
+  justify-content: center;
+  font-size: 34px;
+  width: 15vw;
+  padding: 5px;
+  background-color: transparent;
+  margin-left: 1vw;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 0;
+  border-color: #48b03c;
+  align-items: center;
+  margin-top: 20px;
+}
+.card-login h1 {
+  padding: 30px;
+}
+
+.form-control {
+  position: relative;
+}
+
+::-webkit-input-placeholder {
+  background-color: transparent;
+}
+
+.form-control label {
+  color: #ffffff;
+  pointer-events: none;
+  position: absolute;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  display: inline;
+  font-size: 33px;
+  transition: all 0.3s ease-out;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s;
+  -webkit-text-fill-color: rgba(247, 244, 244, 0.992) !important;
+
+  border-bottom: 2px solid #f1f8f8;
+}
+
+.form-control input {
+  padding: 25px;
+  width: 100%;
+  display: block;
+  border: 0;
+  outline: none;
+  font-size: 15px;
+  transition: all 0.1s ease-out;
+  background-color: transparent;
+  color: #000000;
+  border-bottom: 2px solid #f1f8f8;
+
+  margin: 20px;
+  border: transparent 0 s;
+}
+
+.form-control input:focus + label {
+  font-size: 25px;
+
+  color: white;
+  display: flex;
+  border-bottom: 0px, #f1f8f8;
+}
+
+.form-control input:valid ~ label {
+  font-size: 15px;
+
+  border-bottom: 0px, #f1f8f8;
+}
+input:optional {
+  border-color: gray;
+}
+
+.form-control i {
+  position: absolute;
+
+  left: 0;
+  visibility: hidden;
+}
+#icon1 {
+  position: absolute;
+  top: 65px;
+  left: 160px;
+  width: 50px;
+  height: 100%;
+  border: none;
+}
+.form-control span {
+  position: absolute;
+  left: 0px;
+  cursor: pointer;
+  color: rgb(153, 48, 48);
+  border: none;
+  position: relative;
+}
+
+.form-control small {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: 30px;
+  visibility: hidden;
+  font-size: 15px;
+  top:50;
+  color:#db7373;
+}
+
+.form button:hover {
+  color: rgb(72, 61, 61);
+  background-color: rgb(235, 235, 227);
+  width: 100%;
+}
+
+/* Error and Success */
+.form-control.success input {
+  border-color: #48b03c;
+}
+
+.form-control.error input {
+  border-color: #a45c5c;
+}
+
+.form-control.success i.fa-check-circle {
+  color: #88ff86;
+  visibility: visible;
+  position: absolute;
+  left: 0;
+  left: 160px;
+  top: 65px;
+  height: 100%;
+  width: 50%;
+}
+
+.form-control.error i.fa-exclamation-circle {
+  color: #db7373;
+  visibility: visible;
+  position: absolute;
+  left: 160px;
+  top: 65px;
+  width: 50%;
+}
+
+.form-control.error small {
+  visibility: visible;
+  color: #ffffff;
+  display: block;
+}
+
+@media only screen and (max-width: 950px) {
+  .card-login {
+    width: 85%;
+  }
+  #icon1 {
+    position: absolute;
+    right: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #icon1 {
+  }
+  @media (max-width: 450px) {
+    .left-login {
+      display: none;
+      overflow: hidden;
+    }
+    .card-login {
+      width: 100%;
+    }
+    .card-login h1 {
+      font-size: 30px;
+    }
+  
+
+  h1 {
+    font-size: 25px;
+    align-items: center;
+  }
+
+  .card-login {
+    display: flex;
+    border: transparent;
+  }
+  #icon1 {
+    position: absolute;
+    top: 65px;
+    left: 260px;
+    width: 50px;
+    height: 100%;
+    border: none;
+  }
+
+  .form-control.error i.fa-exclamation-circle{
+    position: absolute;
+    top: 65px;
+    left: 260px;
+    width: 50px;
+    height: 100%;
+    border: none;
+  }
+
+  .form-control.success i.fa-check-circle {
+position: absolute;
+top: 65px;
+left: 260px;
+width: 50px;
+height: 100%;
+border: none;
+}}
+const form = document.getElementById("form");
+const username = document.getElementById("username");
+const email = document.getElementById("email");
+const password = document.getElementById("password");
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  checkInputs();
+});
+
+////eye///
+
+var inputConfirmation = document.getElementById("password"),
+  icon1 = document.getElementById("icon1");
+
+icon1.onclick = function () {
+  if (inputConfirmation.className == "active") {
+    inputConfirmation.setAttribute("type", "text");
+    icon1.className = "fa-regular fa-eye";
+    inputConfirmation.className = "";
+  } else {
+    inputConfirmation.setAttribute("type", "password");
+    icon1.className = "fa fa-eye-slash";
+    inputConfirmation.className = "active";
+  }
+};
+
+//////
+
+function checkInputs() {
+  const usernameValue = username.value;
+  const emailValue = email.value;
+  const passwordValue = password.value;
+
+  if (usernameValue === "") {
+    setErrorFor(username, "O nome de usuário é obrigatório.");
+  } else if (usernameValue.length < 7) {
+    setErrorFor(username, " mínimo 7 caracteres.");
+  } else {
+    setSuccessFor(username);
+  }
+
+  if (emailValue === "") {
+    setErrorFor(email, "O email é obrigatório.");
+  } else if (!checkEmail(emailValue)) {
+    setErrorFor(email, " insira um email válido.");
+  } else {
+    setSuccessFor(email);
+  }
+
+  if (passwordValue === "") {
+    setErrorFor(password, "A senha é obrigatória.");
+  } else if (passwordValue.length < 7) {
+    setErrorFor(password, " mínimo 7 caracteres.");
+  } else {
+    setSuccessFor(password);
+  }
+
+  ///o form-controll é selecionado e checa se todos os forms controls tem a classe de success(validados)
+  const formControls = form.querySelectorAll(".form-control");
+  //looping para o fomrs controll , para usar o metodo every [.formcontrolls],transformando o array em uma lista porque nao é padrao javscript mas sim um nodelist,(ou seja para cada form-control =(form-control)--->)
+  const formIsValid = [...formControls].every((formControl) => {
+    return formControl.className === "form-control success";
+  });
+
+  if (formIsValid) {
+    console.log("O formulário está 100% válido!");
+  }
+}
+
+function setErrorFor(input, message) {
+  const formControl = input.parentElement;
+  const small = formControl.querySelector("small");
+
+  // Adiciona a mensagem de erro
+  small.innerText = message;
+
+  // Adiciona a classe de erro
+  formControl.className = "form-control error";
+}
+
+function setSuccessFor(input) {
+  const formControl = input.parentElement;
+
+  // Adicionar a classe de sucesso
+  formControl.className = "form-control success";
+}
+
+function checkEmail(email) {
+  return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(
+    email
+  );
+}
+
+btn.addEventListener("click", () => {
+  let inputSenha = document.querySelector("#password");
+
+  if (inputSenha.getAttribute("type") == "password") {
+    inputSenha.setAttribute("type", "text");
+  } else {
+    inputSenha.setAttribute("type", "password");
+  }
+});
+
