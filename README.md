@@ -1,18 +1,9 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header"/>
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=35&center=true&vCenter=true&width=1000&lines=HELLO,+MY+NAME+is+Guilherme+Luz+Conci;I'm+29+years+old;I+am+from+Curitiba,PR;I+study+analysis+and+systems+development+at+Positivo,PR;Be+Welcome!+:%29)](https://git.io/typing-svg)
 
-<picture>
-<source
-  srcset="https://github-readme-stats.vercel.app/api?username=Giconci&show_icons=true&theme=dark"
-  media="(prefers-color-scheme: dark)"
-/>
+
   
-
-
-
-   <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Giconci&layout=compact&hide_border=true&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117" />
-  
-
 </picture>
 <div style="display: inline_block"><br>
 <img align="center" "Gui-Js"height="30em" width="40em"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
