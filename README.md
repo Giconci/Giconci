@@ -22,6 +22,7 @@ You can click the Preview link to take a look at your changes.
 />
 <img src="https://github-readme-stats.vercel.app/api?username=Giconci&show_icons=true" />
 </picture>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"<i class="devicon-javascript-plain colored"></i>>
 
-            <i class="devicon-javascript-plain colored"></i>
+            
           
