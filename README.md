@@ -4,7 +4,7 @@
 - 💞️ I’m looking'to collaborate with someone for developing websites
 - 📫 How to reach me /*gui.conci@hotmail.com*/
 
-
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header"/>
 <picture>
 <source
   srcset="https://github-readme-stats.vercel.app/api?username=Giconci&show_icons=true&theme=dark"
@@ -24,12 +24,6 @@
   <img align="center" "Gui-html"height="30em" width="40em"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
 
 </div>
-
-##
-
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header"/>
-  
-
  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Giconci&layout=compact&hide_border=true&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117" />
 </div>
 
@@ -41,10 +35,7 @@
   <img src="https://github-profile-trophy.vercel.app/?username=Giconci&theme=dracula&row=2&no-bg=true&column=3&margin-w=15&margin-h=15" />
 </p>
 
-<div align="center">  
-<a href="https://www.instagram.com/Giconci_/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"</a>
-</div> 
- 
+
 ### Main skills:
 ![Node.JS](https://img.shields.io/badge/-Node.JS-0D1117?style=for-the-badge&logo=node.js&labelColor=0D1117&textColor=0D1117)&nbsp;
 ![React.js](https://img.shields.io/badge/-React.js-0D1117?style=for-the-badge&logo=react&labelColor=0D1117)&nbsp;
