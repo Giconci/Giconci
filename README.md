@@ -22,7 +22,7 @@ You can click the Preview link to take a look at your changes.
 />
 <img src="https://github-readme-stats.vercel.app/api?username=Giconci&show_icons=true" />
 </picture>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+<img align="center" "Gui-Js"height="30em" width="40em"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
 
 
 
