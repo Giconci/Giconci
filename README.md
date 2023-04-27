@@ -22,4 +22,3 @@ You can click the Preview link to take a look at your changes.
 />
 <img src="https://github-readme-stats.vercel.app/api?username=Giconci&show_icons=true" />
 </picture>
-[![Giconci's GitHub stats](https://github-readme-stats.vercel.app/api?username=Giconci)](https://github.com/Giconci/github-readme-stats)
