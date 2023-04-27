@@ -1,10 +1,12 @@
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header"/>
+
 - 👋 Hi, I’m @Giconci
 - 👀 I’m interested in knowledge
 - 🌱 I’m currently learning JavaScript
 - 💞️ I’m looking'to collaborate with someone for developing websites
 - 📫 How to reach me /*gui.conci@hotmail.com*/
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header"/>
+
 <picture>
 <source
   srcset="https://github-readme-stats.vercel.app/api?username=Giconci&show_icons=true&theme=dark"
