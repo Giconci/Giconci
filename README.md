@@ -1,11 +1,5 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header"/>
-
-- 👋 Hi, I’m @Giconci
-- 👀 I’m interested in knowledge
-- 🌱 I’m currently learning JavaScript
-- 💞️ I’m looking'to collaborate with someone for developing websites
-- 📫 How to reach me /*gui.conci@hotmail.com*/
-
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=35&center=true&vCenter=true&width=1000&lines=HELLO,+MY+NAME+is+Guilherme+Luz+Conci;I'm+29+years+old;I+am+from+Curitibaba-+PR;I+study+analysis+and+systems+development+at+Positivo-PR;Be+Welcome!+:%29)](https://git.io/typing-svg)
 
 <picture>
 <source
