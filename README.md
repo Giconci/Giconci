@@ -4,12 +4,6 @@
 - 💞️ I’m looking'to collaborate with someone for developing websites
 - 📫 How to reach me /*gui.conci@hotmail.com*/
 
-<!---
-Giconci/Giconci is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
-
-
 
 <picture>
 <source
@@ -30,5 +24,8 @@ You can click the Preview link to take a look at your changes.
 </div>
 
 ##
+<div style="display: inline_block"><br>
+https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white
+</div<
             
           
