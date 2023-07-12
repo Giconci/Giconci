@@ -14,7 +14,7 @@
   
   
 
-![Github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=Giconci&theme=gotham)
+
 
 
 <p align="center">
